@@ -11,6 +11,7 @@ connectDB();
 
 const app = express();
 
+// get data from url
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
